@@ -4,7 +4,7 @@
 
 import java.util.Scanner;
  
-public class CF_1241B {
+class CF_1241B {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int q=input.nextInt();
