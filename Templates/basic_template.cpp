@@ -16,20 +16,6 @@ using namespace std;
 #define arrSort(a) sort(a,a+(int)sizeof(a) / sizeof(a[0]))
 #define r_arrSort(a) sort(a,a+(int)sizeof(a) / sizeof(a[0]),greater<int>())
 
-vector<bool> seive(ll n){
-    vector<bool> prime(n+3,true);
-    prime[0]=false;
-    prime[1]=false;
-    for(int i=2;i*i<=n;i++){
-        if(prime[i]){
-            for(int j=i*i;j<n;j+=i){
-                prime[j]=false;
-            }
-        }
-    }
-    return prime;
-}
-
 int main(){
     ios_base::sync_with_stdio(false);cin.tie(NULL);
     int t;cin>>t;
