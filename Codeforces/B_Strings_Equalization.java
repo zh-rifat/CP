@@ -3,7 +3,7 @@
 /*********************************************/
 
 import java.util.Scanner;
- 
+
 class CF_1241B {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
